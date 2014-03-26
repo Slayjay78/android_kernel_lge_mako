@@ -22,7 +22,7 @@ export TARGET_GCC=4.8;
 
 #the following lines one have some effect if you use 4.8 as TARGET_GCC
 #if you want to use cfx, uncomment next line
-export TARGET_GCC_SUB=cfx;
+#export TARGET_GCC_SUB=cfx;
 
 #default one : googles toolchain. comment it out if you want to use different one
 #export TARGET_GCC_SUB=google; 
@@ -31,7 +31,7 @@ export TARGET_GCC_SUB=cfx;
 #export TARGET_GCC_SUB=sm_old;
 
 #if you want to use the most current sabermod toolchain from sourceforge, uncomment the next line
-#export TARGET_GCC_SUB=sm_new;
+export TARGET_GCC_SUB=sm_new;
 
 
 if [ $TARGET_GCC == "4.8" ];
